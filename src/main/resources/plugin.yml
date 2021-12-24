@@ -1,0 +1,10 @@
+name: ElytraData
+version: 1.0
+main: cn.elytra.data.ElytraDataPlugin
+api-version: 1.17
+commands:
+  edata:
+    permission: op
+    description: "Check Elytra Data Plugin status."
+    usage: /edata
+    permission-message: "No, you don't have permission!"

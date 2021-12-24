@@ -1,0 +1,11 @@
+# Elytra Data Configuration v1
+
+# Don't modify this!
+configSpec: 1
+
+# MongoDatabase Configuration
+mongo:
+  # Should the plugin uses MongoDB as the database
+  enable: true
+  # The connection url to the MongoDB
+  database: "mongodb://localhost:27017"
